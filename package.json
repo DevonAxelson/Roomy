@@ -1,0 +1,23 @@
+{
+  "name": "yert",
+  "version": "1.0.0",
+  "description": "project test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devon Axelson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "gpio": "^0.2.10",
+    "https": "^1.0.0",
+    "onoff": "^6.0.3",
+    "openssl": "^2.0.0",
+    "pem": "^1.14.6",
+    "socket.io": "^4.4.1",
+    "statman-stopwatch": "^2.13.0",
+    "stopwatch": "file:../stopwatch"
+  }
+}

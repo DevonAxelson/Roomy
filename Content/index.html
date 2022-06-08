@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Room Timer Test</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/header.css">
+   </head>
+   <body>
+	
+<button class="tablink" onclick="openPageH('ALPHA',this, 'red')">ALPHA</button></p>
+<button class="tablink" onclick="openPageC('BRAVO',this, 'red')" >BRAVO</button>
+<button class="tablink" onclick="openPageG('CHARLIE',this, 'red')">CHARLIE</button>
+<button class="tablink" onclick="openPageN('DELTA',this, 'red')">DELTA</button>
+<button class="tablink" onclick="openPageO('ECHO ',this, 'red')">ECHO </button>
+<button class="tablink" onclick="openPageP('FOXTROT',this, 'red')">FOXTROT</button>
+
+<div id="ALPHA" class="tabcontent">
+	<h3>ALPHA ROOM 1</h3>
+	<p id="srv1" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINT1" start1 onclick="aH()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMED1" onclick="bH()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURG1" onclick="cH()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="reset1" onclick="eH()">End Time</button>
+	<h3>ALPHA ROOM 2 </h3>
+	<p id="srv2" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINT2" onclick="fH()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMED2" onclick="gH()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURG2" onclick="hH()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="reset2"n onclick="jH()">End Time</button>
+	<h3>ALPHA ROOM 3</h3>
+	<p id="srv3" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINT3" onclick="kH()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMED3" onclick="lH()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURG3" onclick="mH()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="reset3" onclick="oH()">End Time</button>
+  </div>
+  
+<div id="BRAVO" class="tabcontent">
+	<h3>BRAVO ROOM 1</h3>
+	<p id="srvC1" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTC1" start1 onclick="aC()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDC1" onclick="bC()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGC1" onclick="cC()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetC1" onclick="eC()">End Time</button>
+	<h3>BRAVO ROOM 2</h3>
+	<p id="srvC2" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTC2" onclick="fC()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDC2" onclick="gC()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGC2" onclick="hC()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetC2"n onclick="jC()">End Time</button>
+	<h3>BRAVO ROOM 3</h3>
+	<p id="srvC3" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTC3" onclick="kC()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDC3" onclick="lC()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGC3" onclick="mC()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetC3" onclick="oC()">End Time</button>
+  </div>
+  
+<div id="CHARLIE" class="tabcontent">
+	<h3>CHARLIE ROOM  1</h3>
+	<p id="srvG1" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTG1" start1 onclick="aG()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDG1" onclick="bG()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGG1" onclick="cG()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetG1" onclick="eG()">End Time</button>
+	<h3>CHARLIE ROOM  2</h3>
+	<p id="srvG2" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTG2" onclick="fG()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDG2" onclick="gG()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGG2" onclick="hG()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetG2"n onclick="jG()">End Time</button>
+	<h3>CHARLIE ROOM  3</h3>
+	<p id="srvG3" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTG3" onclick="kG()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDG3" onclick="lG()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGG3" onclick="mG()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetG3" onclick="oG()">End Time</button>
+  </div>
+  
+ <div id="DELTA" class="tabcontent">
+	<h3>DELTA ROOM  1</h3>
+	<p id="srvN1" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTN1" start1 onclick="aN()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDN1" onclick="bN()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGN1" onclick="cN()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetN1" onclick="eN()">End Time</button>
+	<h3>DELTA ROOM  2</h3>
+	<p id="srvN2" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTN2" onclick="fN()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDN2" onclick="gN()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGN2" onclick="hN()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetN2"n onclick="jN()">End Time</button>
+	<h3>DELTA ROOM  3</h3>
+	<p id="srvN3" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTN3" onclick="kN()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDN3" onclick="lN()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGN3" onclick="mN()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetN3" onclick="oN()">End Time</button>
+  </div>
+  
+<div id="ECHO " class="tabcontent">
+	<h3>ECHO ROOM  1</h3>
+	  <p id="srvO1" class="rowyo" >Please select service.</p>
+	  <button class="SelectMAIN" id="startINTO1" start1 onclick="aO()">Timer Setting 1</button>
+	  <button class="SelectMAIN" id="startMEDO1" onclick="bO()">Timer Setting 2</button>
+	  <button class="SelectMAIN" id="startURGO1" onclick="cO()">Timer Setting 3</button>
+	  <button class="SelectMAIN" id="resetO1" onclick="eO()">End Time</button>
+	  <h3>ECHO ROOM  2</h3>
+	  <p id="srvO2" class="rowyo" >Please select service.</p>
+	  <button class="SelectMAIN" id="startINTO2" onclick="fO()">Timer Setting 1</button>
+	  <button class="SelectMAIN" id="startMEDO2" onclick="gO()">Timer Setting 2</button>
+	  <button class="SelectMAIN" id="startURGO2" onclick="hO()">Timer Setting 3</button>
+	  <button class="SelectMAIN" id="resetO2"n onclick="jO()">End Time</button>
+	  <h3>ECHO ROOM  3</h3>
+	  <p id="srvO3" class="rowyo" >Please select service.</p>
+	  <button class="SelectMAIN" id="startINTO3" onclick="kO()">Timer Setting 1</button>
+	  <button class="SelectMAIN" id="startMEDO3" onclick="lO()">Timer Setting 2</button>
+	  <button class="SelectMAIN" id="startURGO3" onclick="mO()">Timer Setting 3</button>
+	  <button class="SelectMAIN" id="resetO3" onclick="oO()">End Time</button>
+	</div>
+	
+<div id="FOXTROT" class="tabcontent">
+	<h3>FOXTROT ROOM  1</h3>
+	<p id="srvP1" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTP1" start1 onclick="aP()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDP1" onclick="bP()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGP1" onclick="cP()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetP1" onclick="eP()">End Time</button>
+	<h3>FOXTROT ROOM  2</h3>
+	<p id="srvP2" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTP2" onclick="fP()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDP2" onclick="gP()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGP2" onclick="hP()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetP2"n onclick="jP()">End Time</button>
+	<h3>FOXTROT ROOM  3</h3>
+	<p id="srvP3" class="rowyo" >Please select service.</p>
+	<button class="SelectMAIN" id="startINTP3" onclick="kP()">Timer Setting 1</button>
+	<button class="SelectMAIN" id="startMEDP3" onclick="lP()">Timer Setting 2</button>
+	<button class="SelectMAIN" id="startURGP3" onclick="mP()">Timer Setting 3</button>
+	<button class="SelectMAIN" id="resetP3" onclick="oP()">End Time</button>
+	</div>
+
+	
+	
+	
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/js/SocketButtons.js"></script>
+	<script src="/js/TabButton.js"></script>
+	<script>
+	
+
+   </script>
+		
+   </body>
+</html>
